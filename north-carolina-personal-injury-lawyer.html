@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CR Legal | North Carolina Personal Injury Lawyer</title>
+    <meta name="description" content="North Carolina Personal Injury Lawyer">
+    <meta name="theme-color" content="#0d296b">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.crlegalteam.com/wp-content/uploads/2025/03/favicon-cr.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="CR Legal | North Carolina Personal Injury Lawyer">
+    <meta property="og:description" content="North Carolina Personal Injury Lawyer">
+    <meta property="og:image" content="project-media/108/CrL1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" as="image" href="project-media/108/CrL1.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+    /* Ensure visually-hidden works even if Bootstrap CSS fails to load */
+    .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    :root {
+        --brand:#0d296b;
+        --brand-600:#0b235b;
+        --ink:#0f172a;
+        --surface:#f7f9fc;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        margin-top: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background-color: #0e0e0e;
+        color: var(--ink);
+    }
+
+    .hero-title, h1, h2, h3 {
+        font-family: "Playfair Display", serif;
+        letter-spacing: .2px;
+    }
+    .hero-title { font-size: clamp(2.6rem, 6vw, 4rem); }
+    h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+
+    a.inline-link { text-decoration: underline; text-underline-offset: 3px; }
+
+    #mainHeader {
+        position: fixed; top: 0; right: 0; left: 0; z-index: 2000;
+        background: rgba(13,41,107,0);
+        transition: background-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease, border-color .3s ease;
+        border-bottom: 1px solid transparent;
+    }
+    #mainHeader.scrolled {
+        background: rgba(13,41,107,.65);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
+        backdrop-filter: saturate(140%) blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-section { padding-top: 100px; position: relative; color: #fff; overflow: hidden; min-height: 400px; }
+    .hero-section::before {
+        content:""; position:absolute; inset:0;
+        background: radial-gradient(1200px 600px at 60% 20%, rgba(255,255,255,.07), transparent 60%),
+                   linear-gradient(to bottom, rgba(0,0,0,.32), rgba(0,0,0,.52));
+        pointer-events:none;
+    }
+    .hero-title { font-weight: 700; margin-bottom: .5rem; text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+
+    .accent { position: relative; display: inline-block; padding-bottom: .25rem; }
+    .accent::after {
+        content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px;
+        width: 72px; height: 2px; border-radius: 999px;
+        background: linear-gradient(90deg, rgba(255,255,255,.0) 0%, #ffffff 50%, rgba(255,255,255,.0) 100%);
+        opacity: .95;
+    }
+    .accent-dark::after {
+        background: linear-gradient(90deg, rgba(13,41,107,0) 0%, var(--brand) 50%, rgba(13,41,107,0) 100%);
+    }
+
+    .section-wrap { padding: 2rem; position:relative; }
+    .section-inner { max-width: 70ch; margin: 0 auto; text-align: left; }
+    .prose p {
+        font-size: 1.05rem; line-height: 1.9; letter-spacing: .01em; margin-bottom: 1.15rem;
+        color: #0f0f10; text-align: justify;
+    }
+    .section-wrap:not(:first-child)::before {
+        content:""; position:absolute; top:-1.5rem; left:0; right:0; height:1px;
+        background: linear-gradient(90deg, transparent, rgba(13,41,107,.12), transparent);
+    }
+
+    .figure { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,.15); }
+    .figure img { display: block; width: 100%; height: auto; transition: transform .28s ease; }
+    .figure:hover img { transform: scale(1.015); }
+
+    .btn-ghost {
+        display: inline-flex; align-items: center; gap: .6rem;
+        padding: .68rem 1.15rem; border: 1px solid rgba(255,255,255,.85); color: #fff;
+        background: rgba(255,255,255,.085); border-radius: 999px;
+        backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+        box-shadow: 0 10px 28px rgba(0,0,0,.25); text-decoration: none; font-weight: 600; letter-spacing: .02em;
+        transition: transform .15s ease, background .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.15); border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,.32); }
+    .btn-ghost i { transition: transform .18s ease; }
+    .btn-ghost:hover i { transform: translateX(4px); }
+    .btn-ghost:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+    .btn-ghost:active { transform: translateY(0); }
+
+    #mainHeader a { color:#fff; text-decoration:none; }
+
+    .header-icon {
+        display:inline-flex; align-items:center; justify-content:center;
+        width:40px; height:40px; border-radius:999px; margin-left:.5rem;
+        color:#fff; text-decoration:none; outline-offset:2px;
+    }
+    .header-icon i { font-size:1.5rem; line-height:1; }
+    .header-icon:focus-visible { outline:2px solid #fff; }
+    @media (hover:hover){ .header-icon:hover{ background: rgba(255,255,255,.12); } }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .footer-link { text-decoration: none; }
+    .footer-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    footer { position: relative; background: #0c0c0c; }
+    footer::before {
+        content:""; position:absolute; top:0; left:0; right:0; height:2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent); opacity:.6;
+    }
+
+    a:focus-visible, button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+    #services { scroll-margin-top: 110px; }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal, .figure img, .btn-ghost, .accent::after { transition: none; animation: none; }
+        html { scroll-behavior: auto; }
+    }
+
+    #backToTop { position: fixed; right: 16px; bottom: 16px; z-index: 1040; display: none; }
+    </style>
+</head>
+<body class="bg-dark text-dark">
+
+    <header id="mainHeader" class="text-white py-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-start mb-0">
+                <a href="#" class="text-white text-decoration-none" aria-label="North Carolina Personal Injury Lawyer home">North Carolina Personal Injury Lawyer</a>
+            </h1>
+            <div><a href="facebook.com/crlegalteam" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a><a href="https://www.instagram.com/crlegalteam/" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a><a href="linkedin.com/company/cr-legalteam-llp" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span></a></div>
+        </div>
+    </header>
+
+    <section class="hero-section"
+             style="background-image: url('project-media/108/CrL1.jpg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+      <div class="container hero-content"
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h2 class="hero-title accent mb-3">CR Legal</h2>
+          <a href="#services" class="btn-ghost" role="button" aria-label="Read more about services">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main style="background-color: #ffffff;">
+        <div class="container py-5" style="margin-top:0;">
+            <div id="services" class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Carolina Lawyers For Injury Recovery</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>An injury can create immediate uncertainty about finances, responsibilities, and the decisions that follow. A conversation with <a href="https://cloudlinksautomation.blob.core.windows.net/crlegal1/north-carolina-personal-injury-lawyer.html" class="inline-link">North Carolina Personal Injury Lawyer</a> can provide a clearer view of potential claims, available insurance coverage, and the steps that may protect a person's interests. Since no two situations are alike, North Carolina Personal Injury Lawyer may consider the circumstances, the extent of disruption, and the goals of the affected individual before suggesting a strategy.</p>
+                            <p>As a matter develops, thoughtful preparation can make discussions more productive. North Carolina Personal Injury Lawyer may evaluate wage-related losses, out-of-pocket costs, and the broader effect on a person's plans, then explain how those factors may influence a demand or negotiation. When an insurer challenges responsibility or offers less than the claim warrants, North Carolina Personal Injury Lawyer can help assess the response and pursue a resolution supported by the available facts.</p>
+                            <p>Effective representation also includes clear communication from the initial review through final resolution. Working with North Carolina Personal Injury Lawyer can help clients understand deadlines, weigh settlement terms, and make informed choices without feeling pressured to move faster than their circumstances allow. The goal is a practical outcome that reflects both the losses involved and the individual's priorities.</p>
+                            <figure class="figure mt-4">
+                                <img src="project-media/109/CrL2.jfif" loading="lazy" decoding="async" alt="North Carolina Personal Injury Lawyer image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color: var(--brand);">
+                            <span class="accent accent-dark">Injury Counsel For Unexpected Trauma</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>A careful legal review begins by separating verified facts from assumptions and identifying the rules that may govern the dispute. North Carolina Personal Injury Lawyer can assess how the conduct at issue relates to legal duties and whether responsibility may be divided among more than one party. Speaking with North Carolina Personal Injury Lawyer may also help establish a reliable timeline, clarify the questions that require further inquiry, and support consistent communication throughout the matter.</p>
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <p>Legal analysis may require more than a description of what occurred. Relevant records and professional opinions can help connect the event to the condition being treated, while testimony from people familiar with the person's circumstances may add context. With North Carolina Personal Injury Lawyer, a person can consider procedural deadlines and evaluate how the available information supports a well-defined legal position. North Carolina Personal Injury Lawyer can then help present that position clearly in negotiations or formal proceedings.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9 mx-auto" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
+                                        <iframe src="https://www.youtube.com/embed/m591lFVE6YQ?si=FH0JEuqzUGdeAOlP" loading="lazy" title="North Carolina Personal Injury Lawyer video" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Professional guidance remains valuable when a proposed resolution includes broad releases, uncertain payment terms, or conditions that may affect future rights. A lawyer can explain the practical consequences of negotiation, mediation, and litigation without promising a particular result. North Carolina Personal Injury Lawyer can help a client make decisions based on documented facts, applicable law, and long-term priorities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Roadway Injury Lawyers In Carolina</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>In a collision-related claim, prospective clients should understand how fees are calculated and which expenses may be advanced during a case. North Carolina Personal Injury Lawyer can describe whether payment depends on a recovery, while North Carolina Personal Injury Lawyer may identify costs that could remain the client's responsibility if the matter does not resolve favorably.</p>
+                            <p>A proposed resolution deserves careful attention to its language, not just its dollar amount. North Carolina Personal Injury Lawyer can review provisions concerning medical liens, confidentiality, tax treatment, and future claims, while North Carolina Personal Injury Lawyer can discuss whether the agreement addresses all issues that should be settled before it is signed.</p>
+                            <p>Good representation also includes practical communication throughout the matter. North Carolina Personal Injury Lawyer should set realistic expectations about response times, major decisions, court appearances, and the information the client will need to provide, allowing both sides to work from a clear understanding of the engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 reveal">
+                  <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                  <span class="accent accent-dark">
+                  <i class="bi bi-geo-alt" style="margin-right:.5rem;"></i>CR Legal</span>
+                  </h2>
+
+                    <div class="mb-4 ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.9293118954624!2d-80.8412645736771!3d35.05850636392971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f8f6efc7e49%3A0xbd40cfe7515784e2!2sCR%20Legal%20Team!5e0!3m2!1sen!2sin!4v1791449235540!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <p class="fw-bold" style="color: #000000;">CR Legal</p>
+                    <p style="color: #000000;"> 11525 North Community House Road, Everett Building, Suite 350,
+Charlotte, NC 28277, United States</p>
+                    <p style="color: #000000;">1 704-567-4529</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark mt-5">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">CR Legal</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="North-Carolina-Personal-Injury-Lawyer.html" rel="noopener">Company Website</a></li>    <li><a class="link-light footer-link" href="https://www.crlegalteam.com/" rel="noopener">https://www.crlegalteam.com/</a></li>    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm"></h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="" rel="noopener">Useful Links</a></li>    <li><a class="link-light footer-link" href="https://www.crlegalteam.com/" rel="noopener"></a></li>    <li><a class="link-light footer-link" href="https://maps.app.goo.gl/MsHDs3bc744N1UJr5" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Follow us on Social Media</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="facebook.com/crlegalteam" rel="noopener">Facebook</a></li>    <li><a class="link-light footer-link" href="https://www.instagram.com/crlegalteam/" rel="noopener">Instagram</a></li>    <li><a class="link-light footer-link" href="linkedin.com/company/cr-legalteam-llp" rel="noopener">Linkedin</a></li>  </ul></div>
+            </div>
+            <div class="mt-4">
+                
+<section class="safe-news-wall" aria-label="North Carolina. United States">
+  <style>
+    .safe-news-wall { background:#f4f4f6; color:#333; padding:18px 12px 24px; border-radius:2px; }
+    .safe-news-wall h2 { margin:0 0 16px; color:#111; text-align:center; font-family:Arial, sans-serif; font-size:28px; line-height:1.2; font-weight:400; }
+    .safe-news-grid { column-count:4; column-gap:14px; }
+    .safe-news-card { display:inline-block; width:100%; break-inside:avoid; margin:0 0 14px; padding:18px; background:#fff; border:1px solid #ddd; border-radius:4px; color:#333; text-align:left; text-decoration:none; box-sizing:border-box; }
+    .safe-news-card:hover { color:#333; text-decoration:none; box-shadow:0 4px 16px rgba(66,66,66,.16); }
+    .safe-news-card h3 { margin:0 0 14px; color:#333; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; font-weight:700; letter-spacing:0; }
+    .safe-news-card img { display:block; width:100%; height:auto; margin:0 0 14px; object-fit:cover; }
+    .safe-news-card p { margin:0 0 16px; color:#444; font-family:Arial, sans-serif; font-size:18px; line-height:1.55; }
+    .safe-news-meta { color:#8396a8; font-family:Arial, sans-serif; font-size:15px; line-height:1.4; }
+    @media (max-width: 1100px) { .safe-news-grid { column-count:3; } }
+    @media (max-width: 800px) { .safe-news-grid { column-count:2; } }
+    @media (max-width: 560px) { .safe-news-grid { column-count:1; } .safe-news-wall h2 { font-size:24px; } .safe-news-card h3 { font-size:21px; } }
+  </style>
+  <h2>North Carolina. United States</h2>
+  <div class="safe-news-grid">
+    <a class="safe-news-card" href="https://www.theweathernetwork.com/en/news/weather/forecasts/wheres-the-frost-southern-u-s-hits-freezing-before-toronto-montreal" target="_blank" rel="noopener noreferrer"><h3>Where’s the frost? Southern U.S. hits freezing before Toronto, Montreal</h3><img src="https://images.twnmm.com/c55i45ef3o2a/7Ai0LjNq4r5kEzLjeP3Aja/658e959349177844459a79b89a7f98f1/Cold_Frost_Snow_US_Canada_Thumbnail.png?fm=jpg&amp;q=80" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Toronto and Montreal have been above the freezing mark every day for almost six months</p><div class="safe-news-meta">theweathernetwork.com - 8h</div></a><a class="safe-news-card" href="https://justthenews.com/nation/states/center-square/trouble-involving-china-bank-america-just-part-states-list" target="_blank" rel="noopener noreferrer"><h3>Bank of America just part of North Carolina’s China worries</h3><img src="https://justthenews.com/sites/default/files/styles/social_media_share/public/2024-04/GettyImages-1928004941.jpg?h=199d8c1f&amp;itok=TvrYx_6c" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The largest penalty in the history of Office of the Comptroller of the Currency and third largest in Treasury history comes 28 days after China and its Wuhan University was cited in a U.S. Department of Education probe into Duke University and its Duke Kunshan University joint campus.</p><div class="safe-news-meta">justthenews.com - 10h</div></a><a class="safe-news-card" href="https://www.caribbeannationalweekly.com/posts/two-jamaicans-haitian-national-charged-in-us-voter-fraud-cases" target="_blank" rel="noopener noreferrer"><h3>Two Jamaicans, Haitian national charged in US voter fraud cases</h3><img src="https://www.caribbeannationalweekly.com/api/media/file/Arrest-charged-handcuff-1-EN5pKL-4.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Two Jamaican nationals and a Haitian national are among 16 non-U.S. citizens charged in separate voter fraud cases across the United States.</p><div class="safe-news-meta">caribbeannationalweekly.com - 11h</div></a><a class="safe-news-card" href="https://www.dailyadvance.com/news/local/zehner-wants-to-be-loud-for-northeastern-nc-in-senate-bid/article_ae2b146f-0e3c-4d30-b6af-cb80865da12a.html" target="_blank" rel="noopener noreferrer"><h3>Zehner wants to be ‘loud’ for northeastern NC in Senate bid</h3><img src="https://bloximages.newyork1.vip.townnews.com/dailyadvance.com/content/tncms/assets/v3/editorial/c/3e/c3ed0cce-9915-450f-8d9c-ccbf2f978ceb/6acfa9bdee4d4.image.jpg?crop=1662%2C873%2C0%2C187&amp;resize=1200%2C630&amp;order=crop%2Cresize" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Melissa Zehner, the Democratic candidate for N.C. Senate District 1, says that if elected, she wants to put northeastern North Carolina in the spotlight after years of being overlooked.</p><div class="safe-news-meta">dailyadvance.com - 14h</div></a><a class="safe-news-card" href="https://www.msn.com/en-gb/weather/forecast/in-South-Toe,North-Carolina" target="_blank" rel="noopener noreferrer"><h3>South Toe, North Carolina, United States Weather Forecast</h3><p>Get accurate hourly forecasts for today, tonight, and tomorrow, along with 10-day daily forecasts and weather radar for South Toe, North Carolina, United States with MSN Weather. Stay updated on precipitation, severe weather warnings, air quality, and wildfire alerts.</p><div class="safe-news-meta">msn.com - 17h</div></a><a class="safe-news-card" href="https://www.nytimes.com/2026/10/18/weather/noreaster-mid-atlantic-north-carolina-new-jersey.html" target="_blank" rel="noopener noreferrer"><h3>Coastal Storm Threatens Mid-Atlantic With High Winds and Flooding</h3><img src="https://static01.nyt.com/images/2026/10/18/multimedia/18wea-noreaster-bqpl/18wea-noreaster-bqpl-videoSixteenByNine3000.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>A slow-moving nor’easter could cause days of coastal flooding and beach erosion from North Carolina to New Jersey, forecasters said.</p><div class="safe-news-meta">nytimes.com - 17h</div></a><a class="safe-news-card" href="https://www.wxii12.com/article/north-carolina-tropical-nor-easter-coast-outer-banks-beach-highway-12/74169265" target="_blank" rel="noopener noreferrer"><h3>Another nor&#x27;easter forming in Atlantic | Dangerous surf, overwash for the Outer Banks</h3><img src="https://kubrick.htvapps.com/htv-prod/images/a83cd992-aea9-4acc-ba8b-dbb7debd32eb.png?crop=1.00xw%3A1.00xh%3B0%2C0&amp;resize=1200%3A*" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The WXII 12 First Warning Weather team is monitoring the Atlantic for a developing Nor&#x27;easter that could bring major impacts to the North Carolina Outer Banks beaches.</p><div class="safe-news-meta">wxii12.com - 21h</div></a><a class="safe-news-card" href="https://lufkindailynews.com/news_reuters/national/democratic-candidate-for-u-s-senate-roy-cooper-votes-in-north-carolina/image_afc64e57-e5d2-5f71-a5fd-8ed10d885335.html" target="_blank" rel="noopener noreferrer"><h3>Democratic candidate for U.S. Senate Roy Cooper votes in North Carolina</h3><img src="https://bloximages.chicago2.vip.townnews.com/lufkindailynews.com/content/tncms/assets/v3/editorial/a/fc/afc64e57-e5d2-5f71-a5fd-8ed10d885335/6ad4995e02be9.image.jpg?crop=800%2C420%2C0%2C96" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Former North Carolina Governor Roy Cooper, the Democratic candidate for the US Senate seat, marks his ballot on the first day of early voting in the state, in Raleigh, North</p><div class="safe-news-meta">lufkindailynews.com - 22h</div></a><a class="safe-news-card" href="https://lufkindailynews.com/news_reuters/national/democratic-candidate-for-us-senate-roy-cooper-votes-in-north-carolina/image_74ac87ea-7bce-5202-b602-45bf83a66b03.html" target="_blank" rel="noopener noreferrer"><h3>Democratic candidate for US Senate Roy Cooper votes in North Carolina</h3><img src="https://bloximages.chicago2.vip.townnews.com/lufkindailynews.com/content/tncms/assets/v3/editorial/7/4a/74ac87ea-7bce-5202-b602-45bf83a66b03/6ad49955ad876.image.jpg?crop=800%2C420%2C0%2C56" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Former North Carolina Governor Roy Cooper, the Democratic candidate for the US Senate seat, poses for a selfie with a fellow voter as they wait in line to cast their</p><div class="safe-news-meta">lufkindailynews.com - 22h</div></a><a class="safe-news-card" href="https://lufkindailynews.com/news_reuters/national/democratic-candidate-for-us-senate-roy-cooper-votes-in-north-carolina/image_e3bc81c8-5154-53c2-aecd-397de98e5eec.html" target="_blank" rel="noopener noreferrer"><h3>Democratic candidate for US Senate Roy Cooper votes in North Carolina</h3><img src="https://bloximages.chicago2.vip.townnews.com/lufkindailynews.com/content/tncms/assets/v3/editorial/e/3b/e3bc81c8-5154-53c2-aecd-397de98e5eec/6ad499620e931.image.jpg?crop=800%2C420%2C0%2C65" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Former North Carolina Governor Roy Cooper, the Democratic candidate for the US Senate seat, holds his ballot as he leaves the voting booth on the first day of early voting</p><div class="safe-news-meta">lufkindailynews.com - 22h</div></a><a class="safe-news-card" href="https://www.usnews.com/news/politics/articles/2026-10-18/roy-coopers-north-carolina-playbook-is-working-can-other-democrats-copy-it" target="_blank" rel="noopener noreferrer"><h3>Roy Cooper&#x27;s North Carolina Playbook Is Working. Can Other Democrats Copy It?</h3><img src="https://www.usnews.com/dims4/USNEWS/64ac422/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F25%2F64b34d27b2474a2febb50159f11bf1%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM9H05O%3A12026-10-18T100241Z_1_LYNXMPEM9H05O_RTROPTP_3_USA-ELECTION-NORTH-CAROLINA.JPG" alt="" loading="lazy" referrerpolicy="no-referrer"><p>By Yasmeen Abutaleb Oct 18 (Reuters) - North Carolina hasn’t elected a Democrat to the US Senate in nearly 20 years, but former ⁠Governor ⁠Roy Cooper has built a double-digit lead over Republican Michael Whatley ⁠by relentlessly focusing on affordability and a blunt promise to “make stuff cost ...</p><div class="safe-news-meta">usnews.com - 22h</div></a><a class="safe-news-card" href="https://www.wxii12.com/article/nor-easter-nc-coast-flooding-outer-banks-beach/74168641" target="_blank" rel="noopener noreferrer"><h3>Coastal flooding likely, last chance to leave Hatteras and Ocracoke Islands | Big storm developing along NC beaches</h3><img src="https://kubrick.htvapps.com/htv-prod/images/a83cd992-aea9-4acc-ba8b-dbb7debd32eb.png?crop=1.00xw%3A1.00xh%3B0%2C0&amp;resize=1200%3A*" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The WXII 12 First Warning Weather team is monitoring the Atlantic for a developing Nor&#x27;easter.</p><div class="safe-news-meta">wxii12.com - 1d</div></a><a class="safe-news-card" href="https://www.breitbart.com/faith/2026/10/17/over-700-students-decide-to-follow-jesus-during-north-carolina-university-event-god-was-so-present/" target="_blank" rel="noopener noreferrer"><h3>Over 700 Students Decide to Follow Jesus During North Carolina University Event: &#x27;God Was So Present&#x27;</h3><img src="https://media.breitbart.com/media/2026/10/pexels-prolificpeople-30477086.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Over 700 young people decided to follow Jesus Christ Tuesday at Appalachian State University in Boone, North Carolina.</p><div class="safe-news-meta">breitbart.com - 1d</div></a><a class="safe-news-card" href="https://watchers.news/2026/10/17/visitors-ordered-to-evacuate-hatteras-island-as-coastal-storm-threatens-n-c-highway-12-u-s/" target="_blank" rel="noopener noreferrer"><h3>Visitors ordered to evacuate Hatteras Island as coastal storm threatens N.C. Highway 12, U.S.</h3><img src="https://watchers.news/wp-content/uploads/2026/10/HD-Satellite-image-of-Hatteras-Island-on-October-16-2026.webp" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Dare County ordered all visitors to evacuate Hatteras Island beginning at 20:00 EDT on October 16 (00:00 UTC on October 17) after declaring a state of emergency ahead of a developing coastal nor’…</p><div class="safe-news-meta">watchers.news - 1d</div></a><a class="safe-news-card" href="https://economictimes.indiatimes.com/news/international/us/north-carolina-collected-about-2-million-in-ferry-fares-but-spent-1-4-million-collecting-them-a-new-state-law-requires-tolls-on-all-ferry-routes/articleshow/134987952.cms" target="_blank" rel="noopener noreferrer"><h3>North Carolina collected about $2 million in ferry fares but spent $1.4 million collecting them; a new sta</h3><img src="https://img.etimg.com/thumb/msid-134989871,width-1200,height-900,imgsize-171468,overlay-economictimes/articleshow.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Explore how North Carolina&#x27;s ferry system operates, the financial challenges of fare collection, and the impact of legislation on Ocracoke Island&#x27;s ferry service.</p><div class="safe-news-meta">economictimes.indiatimes.com - 2d</div></a><a class="safe-news-card" href="https://www.orlandosentinel.com/2026/10/16/barbra-banda-orlando-pride-ebola-travel-restrictions-houston-dash-nwsl/" target="_blank" rel="noopener noreferrer"><h3>Banda out for Orlando because of Ebola travel restrictions; Pride visit Houston</h3><img src="https://www.orlandosentinel.com/wp-content/uploads/2026/05/TOS-L-OrlandoPrideNC7047-e1792196841226.jpg?w=2038&amp;h=1624" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The Orlando Pride, already teetering on elimination from playoff contention, will play Sunday at the Houston Dash without star forward Barbra Banda because of U.S. reentry restrictions.</p><div class="safe-news-meta">orlandosentinel.com - 2d</div></a><a class="safe-news-card" href="https://www.reflector.com/opinion/editorial_columnists/editorial-in-midterms-your-vote-matters-in-old-north-state/article_93fdb999-aa80-5089-b744-2d1593af306c.html" target="_blank" rel="noopener noreferrer"><h3>Editorial: In midterms, your vote matters in Old North State</h3><img src="https://bloximages.newyork1.vip.townnews.com/reflector.com/content/tncms/assets/v3/editorial/c/9a/c9a9dbc3-3dbb-57eb-8eab-1125b056a199/69927e10bf72f.image.jpg?crop=1200%2C630%2C0%2C22" alt="" loading="lazy" referrerpolicy="no-referrer"><p>We&#x27;re here! We&#x27;ve made it. As of Thursday, the polls have opened for eligible voters who want to cast a ballot early in the midterm elections that feature three constitutional</p><div class="safe-news-meta">reflector.com - 2d</div></a><a class="safe-news-card" href="https://www.qcnews.com/news/politics/election/north-carolina-elections/michael-whatley-roy-cooper-vote-early-say-theyre-not-weighing-results-of-previous-polling-data/" target="_blank" rel="noopener noreferrer"><h3>Michael Whatley, Roy Cooper vote early, say they’re not weighing results of previous polling data</h3><img src="https://www.qcnews.com/wp-content/uploads/sites/109/2026/10/Whatley-in-gastonia.png?w=1280" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Multiple polls have given Cooper, the former two-term North Carolina governor, at least a 10-point lead over Whatley, the former chair of the RNC.</p><div class="safe-news-meta">qcnews.com - 2d</div></a><a class="safe-news-card" href="https://www.carolinajournal.com/ager-well-outpaces-balkcom-in-nc-11-fundraising/" target="_blank" rel="noopener noreferrer"><h3>Ager well outpaces Balkcom in NC-11 fundraising</h3><img src="https://www.carolinajournal.com/wp-content/uploads/2026/09/Balkcom-v-Ager.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>In third quarter FEC campaign finance reports, Ager raised $2.3 million and has $1.6 million in cash on hand. Balkcom raised $355,134 and has $295,084 in cash on hand.</p><div class="safe-news-meta">carolinajournal.com - 2d</div></a><a class="safe-news-card" href="https://www.wwaytv3.com/north-carolina-awards-more-than-28-million-to-protect-land-waterways-and-historic-sites/" target="_blank" rel="noopener noreferrer"><h3>North Carolina awards more than $28 million to protect land, waterways and historic sites</h3><img src="https://www.wwaytv3.com/content/uploads/2025/08/l/u/btfa-waterfront-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>North Carolina is investing more than $28 million in projects aimed at protecting natural areas, improving water quality and preserving historic sites across the state.</p><div class="safe-news-meta">wwaytv3.com - 2d</div></a><a class="safe-news-card" href="https://news.wfu.edu/2026/10/16/north-carolina-could-play-a-key-role-in-this-years-midterm-elections/" target="_blank" rel="noopener noreferrer"><h3>North Carolina could play a key role in this year&#x27;s midterm elections</h3><img src="https://prod.wp.cdn.aws.wfu.edu/sites/22/2024/07/iStock-522317950.vote_.election.feature.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Midterm election results in North Carolina could significantly influence the state and shape the national political landscape, says John Dinan, a Wake Forest University professor of political science. Dinan explains what North Carolinians will see on the ballot, the importance of key candidate contests and the potential ripple effects on the state and federal levels.…</p><div class="safe-news-meta">news.wfu.edu - 2d</div></a><a class="safe-news-card" href="https://www.wwaytv3.com/deeply-troubling-3-north-carolina-police-officers-resign-amid-probe-into-alleged-racist-texts/" target="_blank" rel="noopener noreferrer"><h3>&#x27;Deeply troubling&#x27;: 3 North Carolina police officers resign amid probe into alleged racist texts</h3><img src="https://www.wwaytv3.com/content/uploads/2026/10/p/n/charllotte-police.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Three police officers have resigned amid an investigation into alleged racist texts shared among a group of six officers at the Charlotte-Mecklenburg Police Department (CMPD) in North Carolina, the police chief announced during a press conference on Thursday.</p><div class="safe-news-meta">wwaytv3.com - 2d</div></a><a class="safe-news-card" href="https://www.worldatlas.com/cities/11-best-north-carolina-towns-for-a-weekend-trip-2026.html" target="_blank" rel="noopener noreferrer"><h3>11 Best North Carolina Towns For A Weekend Trip</h3><img src="https://www.worldatlas.com/r/w1200-q80/upload/b2/e4/2e/the-town-of-highlands-north-carolina-in-macon-county-03-s3cdn-s3cdn.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>One craft, one harbor, one fairway, one horse town apiece. Eleven places where the weekend plan is already made, listed east to west, Edenton to Highlands.</p><div class="safe-news-meta">worldatlas.com - 2d</div></a><a class="safe-news-card" href="https://fastfoodclub.com/p/out-of-towners-plan-return-trips-to-charlotte-north-carolina-for-the-tacos-at-this-beloved-mexican-spot-8cbeadd0/" target="_blank" rel="noopener noreferrer"><h3>Out-Of-Towners Plan Return Trips To Charlotte, North Carolina For The Tacos At This Beloved Mexican Spot</h3><img src="https://fastfoodclub.com/wp-content/uploads/2026/10/featured-image-f3220ff67dd0-d9704de618ea.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Some people plan trips around concerts or ballgames, but a growing crowd plans its Charlotte visits around tacos. One business traveler worked through every</p><div class="safe-news-meta">fastfoodclub.com - 2d</div></a>
+  </div>
+</section>
+
+            </div>
+        </div>
+    </footer>
+
+    <a id="backToTop" href="#top" class="btn btn-light rounded-pill shadow-sm px-3 py-2" aria-label="Back to top">↑ Top</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("mainHeader");
+        var backToTop = document.getElementById("backToTop");
+        var reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener("scroll", function() {
+            var scrolled = window.scrollY > 50;
+            header.classList.toggle("scrolled", scrolled);
+            backToTop.style.display = window.scrollY > 600 ? "inline-flex" : "none";
+        });
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('visible'));
+        }
+    });
+    </script>
+
+</body>
+</html>
